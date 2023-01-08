@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class UserLoginApp {
     public static void main(String[] args) {
         UserService userService = new UserService();
-        userService.addUserFromFile("/home/skye/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2022.3/scratches/users.txt");
+        userService.addUserFromFile("users.txt");
 
         Scanner userInput = new Scanner(System.in);
         int numAttempts = 0;

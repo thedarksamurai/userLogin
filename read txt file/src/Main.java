@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "/home/skye/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2022.3/scratches/frameStats.txt";
+        String filePath = "src/frameStats.txt";
         String delimiter = ",";
         try {
             FileReader fileReader = new FileReader(filePath);

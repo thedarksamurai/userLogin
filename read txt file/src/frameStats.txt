@@ -1,0 +1,5 @@
+Ivara,Rank10,
+Banshee Prime,Rank18,
+Ember,Rank6,
+Khora,Rank30,
+Khora Prime,Rank30
