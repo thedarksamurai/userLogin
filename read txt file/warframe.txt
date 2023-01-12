@@ -1,0 +1,2 @@
+Ivara,Rank 19,Ripclaw poisonIvy
+Excalibur,Rank Max,EnchantedSword
