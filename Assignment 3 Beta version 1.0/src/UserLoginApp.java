@@ -21,11 +21,12 @@ public class UserLoginApp {
                 break;
             } else {
                 numAttempts++;
-                System.out.println("Invalid login, please try again");
+                if (numAttempts == 5){
+                    System.out.println("To many unsuccessful login attempts, you have been locked out.");
+                } else {
+                    System.out.println("Invalid login, please try again.");
+                }
             }
-        }
-        if (numAttempts == 5){
-            System.out.println("Too many failed login attempts, you are now locked out.");
         }
         }
     }
